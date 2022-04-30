@@ -12,10 +12,10 @@
    </head>
    <body>
       <header>
-         <div class="container row">
-            <img src="img/logo.svg" alt="crl logo" />
+         <div class="container">
+            <img class="logo" src="img/logo.svg" alt="crl logo" />
             <nav>
-               <ul class="nav__list row">
+               <ul class="nav__list">
                   <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
                   <li class="nav__item"><a class="nav__link" href="#">About</a></li>
                   <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
@@ -26,37 +26,41 @@
          </div>
       </header>
       <section class="section--blue">
-         <div class="container row">
-            <h1 class="main__title">Responsive layouts <span>don't have to be a struggle</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <a class="section__btn" href="#">I want to learn</a>
+         <div class="container row-700">
+            <h1 class="main__title column-700">Responsive layouts <span>don't have to be a struggle</span></h1>
+            <div class="main__text column-700">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+               <a class="section__btn" href="#">I want to learn</a>
+            </div>
          </div>
       </section>
       <section class="section--light">
-         <div class="container row">
-            <div class="column">
+         <div class="container row-700">
+            <div class="column-700">
                <h3>Mobile-first</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <div class="column">
+            <div class="column-700">
                <h3>Efficient</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <div class="column">
+            <div class="column-700">
                <h3>Done right</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
          </div>
       </section>
       <section class="section--white">
-         <div class="container row">
+         <div class="container row-1000">
             <div class="column">
                <h3>It doesn't have to be so hard</h3>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-               <img class="img-drawings" src="img/image.jpg" alt="website's drawings" />
+               <div class="img">
+                  <img class="img-drawings" src="img/image.jpg" alt="website's drawings" />
+               </div>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
-            <div class="column">
+            <div class="box-container">
                <div class="box">
                   <h3 class="box__title">Break it down</h3>
                   <p class="box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -75,30 +79,32 @@
       <footer>
          <div class="container">
             <h2>just scratching the surface</h2>
-            <div class="row">
-               <div class="column">
+            <div class="row-700">
+               <div class="footer-text column-700">
                   <h3>About our company</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
                </div>
-               <div class="column">
-                  <h3>Getting around</h3>
-                  <a class="footer__link" href="#">Home</a>
-                  <a class="footer__link" href="#">About</a>
-                  <a class="footer__link" href="#">Contact</a>
-               </div>
-               <div class="column">
-                  <h3>Other things</h3>
-                  <a class="footer__link" href="#">Lorem ipsum</a>
-                  <a class="footer__link" href="#">dolor</a>
-                  <a class="footer__link" href="#">sit amet</a>
-                  <a class="footer__link" href="#">consectetur</a>
-               </div>
-               <div class="column">
-                  <h3>And more</h3>
-                  <a class="footer__link" href="#">lorem ipsum</a>
-                  <a class="footer__link" href="#">dolor</a>
-                  <a class="footer__link" href="#">sit amet</a>
-                  <a class="footer__link" href="#">consectetur</a>
+               <div class="links-list column-700">
+                  <div class="column">
+                     <h3>Getting around</h3>
+                     <a class="footer__link" href="#">Home</a>
+                     <a class="footer__link" href="#">About</a>
+                     <a class="footer__link" href="#">Contact</a>
+                  </div>
+                  <div class="column">
+                     <h3>Other things</h3>
+                     <a class="footer__link" href="#">Lorem ipsum</a>
+                     <a class="footer__link" href="#">dolor</a>
+                     <a class="footer__link" href="#">sit amet</a>
+                     <a class="footer__link" href="#">consectetur</a>
+                  </div>
+                  <div class="column">
+                     <h3>And more</h3>
+                     <a class="footer__link" href="#">lorem ipsum</a>
+                     <a class="footer__link" href="#">dolor</a>
+                     <a class="footer__link" href="#">sit amet</a>
+                     <a class="footer__link" href="#">consectetur</a>
+                  </div>
                </div>
             </div>
          </div>
