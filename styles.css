@@ -3,7 +3,6 @@
    --color-dark: #3b4050;
    --color-grey: #6f737f;
    --color-light: #f1f1f1;
-   --color-white: #ffffff;
    --color-brown: #a59678;
 }
 
@@ -13,6 +12,10 @@
    box-sizing: border-box;
    margin: 0;
    padding: 0;
+}
+
+img {
+   max-width: 100%;
 }
 
 .container {
@@ -30,10 +33,6 @@ p {
    margin-bottom: 1.5rem;
    font-size: 1rem;
    line-height: 1.4rem;
-}
-
-img {
-   max-width: 100%;
 }
 
 header {
